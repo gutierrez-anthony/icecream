@@ -32,7 +32,7 @@ $cones = array("sugar"=>"Sugar Cone", "waffle"=>"Waffle Cone", "cup"=>"Cup", "ca
         <h2>Choose One </h2>
         <?php
         foreach ($cones as $value=>$label){
-            echo "<label><input type = 'radio' name='cones[]' value='$value'>".ucfirst($label)."</label><br>";
+            echo "<label><input type = 'radio' name='cone' value='$value'>".ucfirst($label)."</label><br>";
         }
         ?>
         <h2>How many scoops</h2>
